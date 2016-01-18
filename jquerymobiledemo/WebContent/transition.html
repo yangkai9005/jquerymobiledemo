@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script
+	src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style type="text/css">
+#content a{
+padding-top: 10px;
+}
+</style>
+</head>
+<!-- jQuery Mobile 包含了允许您选择页面打开方式的 CSS 效果。 -->
+<body>
+	<div data-role="page" id="pageone">
+		<div data-role="header">
+			<a href="index.html" data-role="button" data-icon="home">首页</a>
+			<h1>打开链接效果</h1>
+		</div>
+		<div data-role="content" id="content">
+			<p>描述</p>
+			<table border="1px">
+				<tr>
+					<th>过渡</th>
+					<th>描述</th>
+				</tr>
+
+				<tr>
+					<td>fade</td>
+					<td>默认。淡入淡出到下一页。</td>
+				</tr>
+
+				<tr>
+					<td>flip</td>
+					<td>从后向前翻动到下一页。</td>
+				</tr>
+
+				<tr>
+					<td>flow</td>
+					<td>抛出当前页面，引入下一页。</td>
+				</tr>
+
+				<tr>
+					<td>pop</td>
+					<td>像弹出窗口那样转到下一页。</td>
+				</tr>
+
+				<tr>
+					<td>slide</td>
+					<td>从右向左滑动到下一页。</td>
+				</tr>
+
+				<tr>
+					<td>slidefade</td>
+					<td>从右向左滑动并淡入到下一页。</td>
+				</tr>
+
+				<tr>
+					<td>slideup</td>
+					<td>从下到上滑动到下一页。</td>
+				</tr>
+
+				<tr>
+					<td>slidedown</td>
+					<td>从上到下滑动到下一页。</td>
+				</tr>
+
+				<tr>
+					<td>turn</td>
+					<td>转向下一页。</td>
+				</tr>
+
+				<tr>
+					<td>none</td>
+					<td>无过渡效果。</td>
+				</tr>
+			</table>
+			<p>例子:</p>
+			<a href="transitiondemo.html" data-transition="fade">默认。淡入淡出到下一页。(fade)</a><br>
+			<a href="transitiondemo.html" data-transition="flip">从后向前翻动到下一页。flip</a><br>
+			<a href="transitiondemo.html" data-transition="flow">抛出当前页面，引入下一页。flow</a><br>
+			<a href="transitiondemo.html" data-transition="pop">像弹出窗口那样转到下一页。pop</a><br>
+			<a href="transitiondemo.html" data-transition="slide">从右向左滑动到下一页。slide</a><br>
+			<a href="transitiondemo.html" data-transition="slidefade">从右向左滑动并淡入到下一页。slidefade</a><br>
+			<a href="transitiondemo.html" data-transition="slideup">从下到上滑动到下一页。slideup</a><br>
+			<a href="transitiondemo.html" data-transition="slidedown">从上到下滑动到下一页。slidedown</a><br>
+			<a href="transitiondemo.html" data-transition="turn">转向下一页。turn</a><br>
+			<a href="transitiondemo.html" data-transition="none">无过渡效果。none</a>
+		</div>
+	</div>
+</body>
+</html>
